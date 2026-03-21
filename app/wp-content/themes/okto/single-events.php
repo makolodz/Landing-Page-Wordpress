@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    frontpage.php
+    <?php echo the_content()?>
 </body>
 </html>
