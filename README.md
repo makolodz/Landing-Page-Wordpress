@@ -4,6 +4,10 @@ Thème WordPress minimaliste pour tester les fonctionnalités de wordpress comme
 Une landing page simple avec testimonials et sponsors, construite sans plugin — uniquement avec les APIs natives de WordPress.
  
 ---
+
+
+![Capture d'écran du site](/Pomodoro.jpg)
+
  
 ## 📋 Objectif
  
