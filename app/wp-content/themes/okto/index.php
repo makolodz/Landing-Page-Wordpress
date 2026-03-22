@@ -1,201 +1,135 @@
-<!--
-	Paradigm Shift by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Paradigm Shift by HTML5 UP</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title><?php echo bloginfo('name'); ?></title>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/style.css"?>" >
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/fonts.css"?>" >
 </head>
-
-<body class="is-preload">
-
-	<!-- Wrapper -->
-		<div id="wrapper">
-
-			<!-- Intro -->
-				<section class="intro">
-					<header>
-						<h1>Paradigm Shift</h1>
-						<p>A free responsive site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> / <a href="https://html5up.net">HTML5 UP</a></p>
-						<ul class="actions">
-							<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
-						</ul>
-					</header>
-					<div class="content">
-						<span class="image fill" data-position="center"><img src="<?php echo get_template_directory_uri() ?>/images/pic01.jpg" alt="" /></span>
-					</div>
-				</section>
-
-			<!-- Section -->
-				<section id="first">
-					<header>
-						<h2>Magna sed nullam nisl adipiscing</h2>
-					</header>
-					<div class="content">
-						<p><strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.</p>
-						<span class="image main"><img src="<?php echo get_template_directory_uri() ?>/images/pic02.jpg" alt="" /></span>
-					</div>
-				</section>
-
-			<!-- Section -->
-				<section>
-					<header>
-						<h2>Feugiat consequat tempus ultrices</h2>
-					</header>
-					<div class="content">
-						<p><strong>Etiam tristique libero</strong> eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum.</p>
-						<ul class="feature-icons">
-							<li class="icon solid fa-laptop">Consequat tempus</li>
-							<li class="icon solid fa-bolt">Etiam adipiscing</li>
-							<li class="icon solid fa-signal">Libero nullam</li>
-							<li class="icon solid fa-cog">Blandit condimentum</li>
-							<li class="icon solid fa-map-marker-alt">Lorem ipsum dolor</li>
-							<li class="icon solid fa-code">Nibh amet venenatis</li>
-						</ul>
-						<p>Vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.</p>
-					</div>
-				</section>
-
-			<!-- Section -->
-				<section>
-					<header>
-						<h2>Ultrices erat magna sed condimentum</h2>
-					</header>
-					<div class="content">
-						<p><strong>Integer mollis egestas</strong> nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
-
-						<!-- Section -->
-							<section>
-								<header>
-									<h3>Erat aliquam</h3>
-									<p>Vehicula ultrices dolor amet ultricies et condimentum. Magna sed etiam consequat, et lorem adipiscing sed dolor sit amet, consectetur amet do eiusmod tempor incididunt  ipsum suspendisse ultrices gravida.</p>
-								</header>
-								<div class="content">
-									<div class="gallery">
-										<a href="images/gallery/fulls/01.jpg" class="landscape"><img src="/images/gallery/thumbs/01.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/02.jpg"><img src="<?php echo get_template_directory_uri() ?>/images/gallery/thumbs/02.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/03.jpg"><img src="<?php echo get_template_directory_uri() ?>/images/gallery/thumbs/03.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/04.jpg" class="landscape"><img src="<?php echo get_template_directory_uri() ?>/images/gallery/thumbs/04.jpg" alt="" /></a>
-									</div>
-								</div>
-							</section>
-
-						<!-- Section -->
-							<section>
-								<header>
-									<h3>Nisl consequat</h3>
-									<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam sed facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet mauris. Ut magna finibus nisi nec lacinia ipsum maximus.</p>
-								</header>
-								<div class="content">
-									<div class="gallery">
-										<a href="images/gallery/fulls/05.jpg" class="landscape"><img src="<?php echo get_template_directory_uri() ?>/images/gallery/thumbs/05.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/06.jpg"><img src="<?php echo get_template_directory_uri() ?>/images/gallery/thumbs/06.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/07.jpg"><img src="<?php echo get_template_directory_uri() ?>/images/gallery/thumbs/07.jpg" alt="" /></a>
-									</div>
-								</div>
-							</section>
-
-						<!-- Section -->
-							<section>
-								<header>
-									<h3>Lorem gravida</h3>
-									<p>Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aenean ornare velit lacus, ac varius sed enim lorem ullamcorper dolore.  ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis.</p>
-								</header>
-								<div class="content">
-									<div class="gallery">
-										<a href="images/gallery/fulls/08.jpg" class="portrait"><img src="<?php echo get_template_directory_uri() ?>/images/gallery/thumbs/08.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/09.jpg" class="portrait"><img src="<?php echo get_template_directory_uri() ?>/images/gallery/thumbs/09.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/10.jpg" class="landscape"><img src="<?php echo get_template_directory_uri() ?>/images/gallery/thumbs/10.jpg" alt="" /></a>
-									</div>
-								</div>
-							</section>
-
-					</div>
-				</section>
-
-			<!-- Section -->
-				<section>
-					<header>
-						<h2>Duis sed adpiscing veroeros amet</h2>
-					</header>
-					<div class="content">
-						<p><strong>Proin tempus feugiat</strong> sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.</p>
-						<ul class="actions">
-							<li><a href="#" class="button primary large">Get Started</a></li>
-							<li><a href="#" class="button large">Learn More</a></li>
-						</ul>
-					</div>
-				</section>
-
-			<!-- Section -->
-				<section>
-					<header>
-						<h2>Get in touch</h2>
-					</header>
-					<div class="content">
-						<p><strong>Auctor commodo</strong> interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.</p>
-						<form>
-							<div class="fields">
-								<div class="field half">
-									<input type="text" name="name" id="name" placeholder="Name" />
-								</div>
-								<div class="field half">
-									<input type="email" name="email" id="email" placeholder="Email" />
-								</div>
-								<div class="field">
-									<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
-								</div>
-							</div>
-							<ul class="actions">
-								<li><input type="submit" value="Send Message" class="button primary" /></li>
-							</ul>
-						</form>
-					</div>
-					<footer>
-						<ul class="items">
-							<li>
-								<h3>Email</h3>
-								<a href="#">information@untitled.ext</a>
-							</li>
-							<li>
-								<h3>Phone</h3>
-								<a href="#">(000) 000-0000</a>
-							</li>
-							<li>
-								<h3>Address</h3>
-								<span>1234 Somewhere Road, Nashville, TN 00000</span>
-							</li>
-							<li>
-								<h3>Elsewhere</h3>
-								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="#" class="icon brands fa-codepen"><span class="label">Codepen</span></a></li>
-								</ul>
-							</li>
-						</ul>
-					</footer>
-				</section>
-
-			<!-- Copyright -->
-				<div class="copyright">&copy; Untitled. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
-
+<body>
+	<?php include get_template_directory() . "/parts/header.php"; ?>
+	<section id="hero-header">
+		<div id="hero-header--content">
+			<div id="hero-header--content--text">
+				<h1><?php echo esc_html( get_theme_mod('hero_title', 'A lifelong pomodoro') ); ?></h1>
+				<h4><?php echo esc_html( get_theme_mod('hero_tagline', 'Our pomodoro never sleeps, never stop, and never stop working.') ); ?></h4>
+			</div>
+			<a id="hero-header--content--link" style="background-color: <?php echo esc_attr(get_theme_mod('colors_2', '#ffffff')); ?> ; color: <?php echo esc_attr(get_theme_mod('colors_3', '#ffffff')); ?>" href="<?php echo esc_html( get_theme_mod('hero_ctalink', 'Get Started') ); ?>"><?php echo esc_html( get_theme_mod('hero_ctatext') ); ?></a>
 		</div>
+		<div id="hero-header--image">
+			<img src="<?php echo esc_url( get_theme_mod('hero_mockup_image') ); ?>" alt="">
+		</div>
+	</section>
+	<!-- <section id="statistics"></section> -->
+	<section id="testimonials">
+		<h1>What do people think of us : </h1>
+		<div id="testimonials--wrapper">
+		<?php 
+			$testimonials = new WP_Query([
+				'post_type' => 'testimonial',
+				'posts_per_page' => -1,
+			]);
 
-	<!-- Scripts -->
-		<script src="<?php echo get_template_directory_uri() ?>/assets/js/jquery.min.js"></script>
-		<script src="<?php echo get_template_directory_uri() ?>/assets/js/jquery.scrolly.min.js"></script>
-		<script src="<?php echo get_template_directory_uri() ?>/assets/js/browser.min.js"></script>
-		<script src="<?php echo get_template_directory_uri() ?>/assets/js/breakpoints.min.js"></script>
-		<script src="<?php echo get_template_directory_uri() ?>/assets/js/util.js"></script>
-		<script src="<?php echo get_template_directory_uri() ?>/assets/js/main.js"></script>
+			if ($testimonials->have_posts()) {
+				while($testimonials->have_posts()) {
+					$testimonials->the_post();
 
+					$company = get_post_meta(get_the_ID(), '_client_company', true);
+					$position = get_post_meta(get_the_ID(), '_client_position', true);
+					$rating = get_post_meta(get_the_ID(), '_client_rating', true);
+					$testimonial = get_post_meta(get_the_ID(), '_client_testimonial', true);
+					$thumb = get_the_post_thumbnail(get_the_ID(), 'thumbnail');
+
+					?>
+					<div class="testimonial-card" style="
+						display: flex; 
+						gap: 20px; 
+						padding: 20px; 
+						margin-bottom: 20px; 
+						border: 1px solid #ddd; 
+						border-radius: 10px; 
+						background-color: #f9f9f9;
+						align-items: flex-start;
+					">
+						<div class="testimonial-photo" style="
+							flex-shrink: 0;
+							width: 80px; 
+							height: 80px; 
+							border-radius: 50%; 
+							overflow: hidden;
+							img {
+								background-position: center;
+							}
+						">
+							<?php 
+							if ($thumb) {
+								echo '<img src="' . get_the_post_thumbnail_url(get_the_ID(),'thumbnail') . '" style="
+									width:100%;
+									height:100%;
+									object-fit: cover;
+									object-position: center;
+								" />';
+							} else {
+								echo '<div style="
+									width:80px;
+									height:80px;
+									background:#ccc;
+									border-radius:50%;
+								"></div>';
+							}
+							?>
+						</div>
+						<div class="testimonial-content" style="flex:1;">
+							<p class="testimonial-text" style="
+								font-size: 16px; 
+								line-height: 1.5; 
+								margin-bottom: 10px;
+								color: #333;
+							"><?php echo esc_html($testimonial); ?></p>
+							<p class="testimonial-client" style="
+								font-weight: bold; 
+								font-size: 14px; 
+								margin-bottom: 5px; 
+								color: #555;
+							"><?php echo esc_html($position . ' @ ' . $company); ?></p>
+							<p class="testimonial-rating" style="
+								color: #f5a623; 
+								font-size: 14px;
+							"><?php echo str_repeat('⭐', intval($rating)); ?></p>
+						</div>
+					</div>
+					<?php
+				}
+				wp_reset_postdata();
+			}
+			?>
+		</div>
+	</section>
+	<section id="sponsors">
+		<h1>This project is propulsed byS : </h1>
+		<div id="sponsors--wrapper">
+		<?php 
+			$sponsors = new WP_Query([
+				'post_type' => 'sponsor',
+				'post_peer_page' => -1,
+			]);
+
+			if ($sponsors->have_posts()) {
+				while ($sponsors->have_posts()) {
+					$sponsors->the_post();
+					?>
+					<a href="<?php echo get_post_meta(get_the_ID(), '_sponsor_url', true);?>" class="sponsor-image">
+						<?php the_post_thumbnail(); ?>
+					</a>
+					<?php
+				}
+				wp_reset_postdata();
+			}
+		?>
+		</div>
+	</section>
+	<section id="footer-cta"></section>
+	<?php include get_template_directory() . "/parts/footer.php"; ?>
 </body>
+</html>

@@ -1,0 +1,11 @@
+
+@font-face {
+    font-family: 'Coolvetica'; /* font name */
+    src: url('./assets/fonts/CoolveticaRg.otf') format('opentype'); /* path + format */
+    font-weight: normal; /* optional */
+    font-style: normal;  /* optional */
+}
+
+*, body {
+    font-family: 'Coolvetica', 'Arial', 'Impact', 'sans-serif'; /* fallback fonts */
+}
